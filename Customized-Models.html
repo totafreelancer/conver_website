@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Project</title>
+
+
+
+    <!--=============== google font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--=============== fontawesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=============== bootstrap ===============-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== POPUP ========== -->
+<!-- ==== search ==== -->
+<div class="modal fade popup_search" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+            <input type="search" class="uabb-search-text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div class="hfeed site" id="page">
+        <div class="container">
+            <!-- ========== header ========== -->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <div class="logo">
+                            <div class="logo-photo">
+                                <div class="logo-photo-content ">
+                                    <a href="index.html" target="_self" itemprop="url">
+                                        <img decoding="async" loading="lazy" width="600" height="130" class="" src="img/logo/convr-logo-indigo.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="Bar collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" aria-current="page">Who We Help</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="who-we-help.html">Who We Help</a></li>
+                                        <li><a class="dropdown-item" href="Insurance-Carriers.html">Insurance Carriers</a></li>
+                                        <li><a class="dropdown-item" href="Reinsurers.html">Reinsurers</a></li>
+                                        <li><a class="dropdown-item" href="mga-underwriters.html">Managing General Agents / Underwriters</a></li>
+                                        <li><a class="dropdown-item" href="producers.html">Producers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active">Solutions</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Solutions.html">Solutions</a></li>
+                                        <li><a class="dropdown-item active" href="Customized-Models.html">Customized Models</a></li>
+                                        <li><a class="dropdown-item" href="Efficient-Intake.html">Efficient Submission Intake</a></li>
+                                        <li><a class="dropdown-item" href="Gather-Correct.html">Gather Correct Business Information</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading2">Identify Correct Business Classification</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading3">Data Enrichment</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading4">Identify Submission Q&A</a></li>
+                                        <li><a class="dropdown-item" href="Pre-fill-Answers.html">Pre-fill Efficiency</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading5">Evaluate Risk Quality & Score</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#">
+                                        Platform
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Platform.html">Platform</a></li>
+                                        <li><a class="dropdown-item" href="Efficient-Intake.html">d3 Intake™</a></li>
+                                        <li><a class="dropdown-item" href="Gather-Correct.html">d3 Risk 360™</a></li>
+                                        <li><a class="dropdown-item" href="Pre-fill-Answers.html">d3 Answers™</a></li>
+                                        <li><a class="dropdown-item" href="d3-risk-score.html">d3 Risk Score™</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link">Resources</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="resources.html">Resources</a></li>
+                                        <li><a class="dropdown-item" href="calculator-roi.html">Calculate Your ROI</a></li>
+                                        <li><a class="dropdown-item" href="prioritization-model.html">Prioritization Model</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="case-studies.html">Case Studies</a></li>
+                                        <li><a class="dropdown-item" href="news.html">News</a></li>
+                                        <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="About-Us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="Leadership.html">Leadership</a></li>
+                                        <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                                        <li><a class="dropdown-item" href="Recognition.html">Recognition</a></li>
+                                        <li><a class="dropdown-item" href="Events.html">Events</a></li>
+                                        <li><a class="dropdown-item" href="Partnerships.html">Partnerships</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <div class="icon">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="try-btn m-0">
+                            <div class="try">
+                                <a href="try-now.html" target="_self">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        <!-- ========== header  End ========== -->
+
+        <!-- ========== main  End ========== -->
+
+        <main class="main_all">
+            <div class="main">
+
+                <div class="WhoWeHelp">
+
+                    <div class="WhoWeHelp_top">
+                        <div class="uabb-has-svg">
+                            <svg class="uasvg-tilt-left-separator" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#ffffff" opacity="1" width="100%" height="200" viewBox="0 0 4 0.266661" preserveAspectRatio="none"><polygon class="fil0" points="4,0 4,0.266661 -0,0.266661 "></polygon></svg>
+                        </div>
+                        <div class="contener">
+                            <div class="row">
+                                <div class="col-sm-6 top-left">
+                                  <div class="card">
+                                    <div class="card-body">
+                                        <div class="AllText">
+                                            <h2 class="card-title fs-3">Out-of-the-Box and Custom Modeling for Risk Forecasting</h2>
+                                            <h1 class="card-title">Powered by Our Built-For-Purpose Insurance Data Lake</h1>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6 top-right">
+                                    <div class="card text-bg-dark">
+                                        <img src="img/1.jpg" id="Rimg" class="card-img " alt="...">
+                                        <div id="Iframe" class="ratio ratio-16x9 remove">
+                                            <iframe src="https://www.youtube.com/embed/YHDFXlkCIl8?rel=0&amp;start&amp;end&amp;controls=0&amp;mute=0&amp;modestbranding=0&amp;autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fconvr.com" title="YouTube video" allowfullscreen></iframe>
+                                        </div>
+                                        <div id="RVdoBtn"  class="card-img-overlay">
+                                            <button type="button" class="btn">
+                                                <i onclick="rightVideo()" class="fa-solid fa-circle-play" style="color: #ffd45c;"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc">
+                        <div class="row text-center px-5 g-4">
+                            <div class="col p-4">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 22px;">Carriers benefit from meaningful efficiencies in their underwriting operations, submission accuracy and consistency throughout their workflows by leveraging Convr to digitize their submissions and fuse them with the best sources of data to surface underwriting insights, business classification and risk scores. Machine learning models are available to quantify Commercial Auto, Workers Comp and Mine risks.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MoreAbout">
+                        <div class="fl-row-content-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cardhead d-block text-center">
+                                        <div class="left">
+                                            <h3 class="card-title">Benefits Experienced By Our Customers</h3>
+                                            <h2 class="card-title">What matters most to you?</h2>
+                                        </div>
+                                    </div>
+                                    <div class="cardBody">
+                                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                              <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Premium Growth</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-phone-volume"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Customer Experience</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                              <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Premium Growth</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MoreAbout">
+                        <div class="fl-row-content-wrap">
+                            <div class="container" style="max-width: 900px;">
+                                <div class="row">
+                                    <div class="cardhead d-block text-center">
+                                        <div class="left">
+                                            <h3 class="card-title">Examples of Valuable Models That Can</h3>
+                                            <h2 class="card-title">Positively Impact Your Profitability</h2>
+                                        </div>
+                                    </div>
+                                    <div class="cardBody">
+                                        <div class="card mb-3">
+                                            <div class="row g-0">
+                                                <div class="col-md-6">
+                                                    <div class="Text-side">
+                                                        <div class="card-body">
+                                                            <ul class="list-group">
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-users"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Customer Retention</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Profitability</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-gauge-high"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Lead Scores</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-scale-balanced"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Subrogation</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="Text-side">
+                                                        <div class="card-body">
+                                                            <ul class="list-group">
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-user-secret"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Fraud</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-bars-progress"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Loss Models</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="group_line">
+                                                                        <div class="icon p-2">
+                                                                            <i class="fa-solid fa-gears"></i>
+                                                                        </div>
+                                                                        <div class="Text">
+                                                                            <h4 class="card-title">Custom Risk Scores</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+
+                <a href="#" class="back-to-top" style="display: inline;">
+                    <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                </a>
+                
+
+                <div class="SMSbtn">
+                    <button class="LeftSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                        <span>Chat with us <img src="img/bg/7.png" alt="👋" class="emoji"></span>
+                    </button>
+                    <button class="RightSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-pen pen-sms"></i>
+                    </button>
+                </div>
+                <!-- ========== chat ========== -->
+                <!-- Modal -->
+                
+
+
+                <div class="chats">
+                    <!-- Button trigger modal -->
+                    
+                    <!-- Modal -->
+                    <div class="modal sms_chat" id="sms_chat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="chat-header">
+                                    <div class="avatars-wrapper">
+                                        <div class="header-ava"></div>
+                                        <div class="header-ava"></div>
+                                        <div class="header-ava"></div>
+                                    </div>
+                                    <h2 class="oneline">
+                                        <span>Hi there <img src="img/bg/7.png" alt="👋" class="emoji"></span>
+                                    </h2>
+                                    <button type="button" class="btn closBTN" data-bs-dismiss="modal" aria-label="Close">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <button type="button" class="btn closBTN" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </button>
+                                    <div class="offline-message" style="background-color: rgba(79, 72, 212, 0.72);">
+                                        <span><span>We typically reply within a few minutes.</span></span>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="conversation-group">
+                                        <div id="messages">
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="input-group">
+                                        <div class="footer-input-wrapper">
+                                            <hr class="m-0">
+                                            <textarea id="new-message-textarea" rows="1" placeholder="Enter your message..." class=" " aria-label="New message" data-testid="newMessageTextarea"></textarea>
+                                        </div> 
+                                        <div class="footer-bottom">
+                                            <div class="footer-icons-wrapper">
+                                                <form><input type="file" name="attachment" aria-label="Attach file input" style="display: none;"></form>
+                                                <button type="button" class="material-icons emoji-switch ripple  " aria-label="Open Emoji picker" style="color: rgb(0, 125, 252);">
+                                                    <svg id="ic_emojiSwitch" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"></path></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="SMSbtn">
+                                    <button class="RightSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <footer>
+                    <div class="End-to-End">
+                        <div class="fl-row-content-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cardhead">
+                                        <div class="left">
+                                            <h3 class="card-title text-white">Realize End-to-End Underwriting Excellence</h3>
+                                            <p class="card-title">With Convr AI, commercial P&amp;C insurance organizations benefit from submission to quote with a frictionless process enriched by AI decisioning, empowering them to make better decisions, faster.</p>
+                                        </div>
+                                        <div class="right">
+                                            <div class="btnTop">
+                                                <a href="#" target="_self" class="Button">
+                                                    <button type="button" class="btn" style="padding-left: 40px; padding-right: 40px;">Try Now</button>
+                                                </a>
+                                                <span class="or">or</span>
+                                            </div>
+                                            <div class="btnBottom">
+                                                <a href="#" target="_self" class="Button">
+                                                    <button type="button" class="btn" style="padding-left: 40px; padding-right: 40px;">Calculate Your ROI</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footers">
+                        <div class="fl-row-content-wrap">
+                            <div class="footer_mane px-4">
+                                <div class="card border-0" style="width: 25%;">
+                                  <div class="card-body">
+                                    <div class="img pb-3">
+                                        <a href="#"><img src="img/logo/convr-logo-indigo.png" class="card-img-top" alt="..."></a>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit qui accusantium doloremque veritatis sed, totam, vel placeat porro facilis quidem vero non magnam consequatur debitis. Natus facere explicabo velit.</p>
+                                    <div class="footer_icon">
+                                        <div class="row row-cols-md-4 my-3">
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card border-0" style="width: 22%;">
+                                  <div class="card-body">
+                                    <h6 class="card-title">Who We Help</h6>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Insurance Carriers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Reinsurers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Managing General Agents /</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Underwriters</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Producers</a>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="card border-0" style="width: 15%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">About</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Leadership</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Careers</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Events</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Contact</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="card-title pt-3">Platform</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Intake™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Risk 360™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Answers™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">d3 Risk Score™</a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                </div>
+                                <div class="card border-0" style="width: 17%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Resources</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Calculate Your ROI</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Prioritization Model</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Case Studies</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">News</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Videos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Become a Partner</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                  <div class="card border-0" style="width: 21%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Solutions</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Customized Models</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Data Enrichment</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Efficient Submission Intake</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Gather Correct Business Information</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Identify Correct Business Classification</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Identify Submission Q&A</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Pre-fill Efficiency</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Evaluate Risk Quality & Score</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="fl-rich-text text-center">
+                        <p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></p>
+                    </div>
+                    
+                </footer>
+
+
+
+            </div>
+        </main>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--=============== bootstrap ===============-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="js/JS.js"></script>
+    
+</body>
+</html>

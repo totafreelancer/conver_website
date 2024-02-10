@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Project</title>
+
+
+
+    <!--=============== google font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--=============== fontawesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!--=============== bootstrap ===============-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== POPUP ========== -->
+<!-- ==== search ==== -->
+<div class="modal fade popup_search" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+            <input type="search" class="uabb-search-text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div class="hfeed site" id="page">
+        <div class="container">
+            <!-- ========== header ========== -->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <div class="logo">
+                            <div class="logo-photo">
+                                <div class="logo-photo-content ">
+                                    <a href="index.html" target="_self" itemprop="url">
+                                        <img decoding="async" loading="lazy" width="600" height="130" class="" src="img/logo/convr-logo-indigo.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="Bar collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" aria-current="page">Who We Help</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="who-we-help.html">Who We Help</a></li>
+                                        <li><a class="dropdown-item" href="Insurance-Carriers.html">Insurance Carriers</a></li>
+                                        <li><a class="dropdown-item" href="Reinsurers.html">Reinsurers</a></li>
+                                        <li><a class="dropdown-item" href="mga-underwriters.html">Managing General Agents / Underwriters</a></li>
+                                        <li><a class="dropdown-item" href="producers.html">Producers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link">Solutions</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Solutions.html">Solutions</a></li>
+                                        <li><a class="dropdown-item" href="Customized-Models.html">Customized Models</a></li>
+                                        <li><a class="dropdown-item" href="Efficient-Intake.html">Efficient Submission Intake</a></li>
+                                        <li><a class="dropdown-item" href="Gather-Correct.html">Gather Correct Business Information</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading2">Identify Correct Business Classification</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading3">Data Enrichment</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading4">Identify Submission Q&A</a></li>
+                                        <li><a class="dropdown-item" href="Pre-fill-Answers.html">Pre-fill Efficiency</a></li>
+                                        <li><a class="dropdown-item" href="#scrollspyHeading5">Evaluate Risk Quality & Score</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#">
+                                        Platform
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Platform.html">Platform</a></li>
+                                        <li><a class="dropdown-item" href="Efficient-Intake.html">d3 Intake™</a></li>
+                                        <li><a class="dropdown-item" href="Gather-Correct.html">d3 Risk 360™</a></li>
+                                        <li><a class="dropdown-item active" href="Pre-fill-Answers.html">d3 Answers™</a></li>
+                                        <li><a class="dropdown-item" href="d3-risk-score.html">d3 Risk Score™</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link">Resources</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="resources.html">Resources</a></li>
+                                        <li><a class="dropdown-item" href="calculator-roi.html">Calculate Your ROI</a></li>
+                                        <li><a class="dropdown-item" href="prioritization-model.html">Prioritization Model</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="case-studies.html">Case Studies</a></li>
+                                        <li><a class="dropdown-item" href="news.html">News</a></li>
+                                        <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="About-Us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="Leadership.html">Leadership</a></li>
+                                        <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                                        <li><a class="dropdown-item" href="Recognition.html">Recognition</a></li>
+                                        <li><a class="dropdown-item" href="Events.html">Events</a></li>
+                                        <li><a class="dropdown-item" href="Partnerships.html">Partnerships</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <div class="icon">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="try-btn m-0">
+                            <div class="try">
+                                <a href="try-now.html" target="_self">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        <!-- ========== header  End ========== -->
+
+        <!-- ========== main  End ========== -->
+
+        <main class="main_all">
+            <div class="main">
+
+                <div class="WhoWeHelp" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+
+                    <div class="WhoWeHelp_top">
+                        <div class="uabb-has-svg">
+                            <svg class="uasvg-tilt-left-separator" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#ffffff" opacity="1" width="100%" height="200" viewBox="0 0 4 0.266661" preserveAspectRatio="none"><polygon class="fil0" points="4,0 4,0.266661 -0,0.266661 "></polygon></svg>
+                        </div>
+                        <div class="contener">
+                            <div class="row">
+                                <div class="col-sm-6 top-left">
+                                  <div class="card">
+                                    <div class="card-body">
+                                        <div class="AllText">
+                                            <h2 class="card-title d-flex fs-1" style="align-items: center;">
+                                                <div class="uabb-image-content">
+                                                    <img width="70" height="70" class="me-3" src="img/bg/9.svg" alt="d3 intake" title="intake" itemprop="image">
+                                                </div>
+                                                d3 Answers™
+                                            </h2>
+                                            <h1 class="card-title">Drive Underwriting Excellence with AI-Surfaced Insights</h1>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6 top-right">
+                                    <div class="card text-bg-dark">
+                                        <img src="img/1.jpg" id="Rimg" class="card-img " alt="...">
+                                        <div id="Iframe" class="ratio ratio-16x9 remove">
+                                            <iframe src="https://www.youtube.com/embed/YHDFXlkCIl8?rel=0&amp;start&amp;end&amp;controls=0&amp;mute=0&amp;modestbranding=0&amp;autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fconvr.com" title="YouTube video" allowfullscreen></iframe>
+                                        </div>
+                                        <div id="RVdoBtn"  class="card-img-overlay">
+                                            <button type="button" class="btn">
+                                                <i onclick="rightVideo()" class="fa-solid fa-circle-play" style="color: #ffd45c;"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc">
+                        <div class="row text-center px-5 g-4">
+                            <div class="col p-4">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 22px; text-align: -webkit-left;">Carriers benefit from meaningful efficiencies in their underwriting operations, submission accuracy and consistency throughout their workflows by leveraging Convr to digitize their submissions and fuse them with the best sources of data to surface underwriting insights, business classification and risk scores. Machine learning models are available to quantify Commercial Auto, Workers Comp and Mine risks.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MoreAbout">
+                        <div class="fl-row-content-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cardhead text-center">
+                                        <div class="left" style="margin-right: auto;margin-left: auto;">
+                                            <h2 class="card-title">Key Capabilities</h2>
+                                        </div>
+                                    </div>
+                                    <div class="cardBody" style="max-width: 900px;margin-left: auto;margin-right: auto;">
+                                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rotate"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Drive efficiency with straight-through processing</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rotate"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Drive efficiency with straight-through processing</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                              <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Avoid Data Leakage</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rocket fa-beat"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Realize faster speed-to-quote</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc backround">
+                        <div class="card">
+                            <div class="cardhead d-block text-center">
+                                <div class="left pb-3 fs-5">
+                                    <h2 class="card-title">d3 Risk 360™ enables superior underwriting decisioning</h2>
+                                    <p class="card-text" style="color:#475569;">d3 Risk 360™ delivers unrivaled insights from machine learning models that synthesize a vast array of information and delivers a comprehensive view of the submission based on underwriting appetite.</p>
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3 text-center g-4">
+                                <div class="col p-4">
+                                  <div class="card h-100">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bullseye" style="font-size: 50px;"></i>
+                                        </div>
+                                        <div class="card-body">
+                                        <h5 class="card-title">Well-informed underwriting decisions</h5>
+                                        <p class="card-text">Multiple Documents are split, extracted, digitized into a single view with lineage</p>
+                                        </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col p-4">
+                                    <div class="card h-100">
+                                      <a href="#">
+                                          <div class="icon">
+                                            <svg width="50px" height="50px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#5850ec"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> <title>ic_fluent_data_line_24_regular</title> <desc>Created with Sketch.</desc> <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="ic_fluent_data_line_24_regular" fill="#5850ec" fill-rule="nonzero"> <path d="M19,4.5 C18.1716,4.5 17.5,5.17157 17.5,6 C17.5,6.82843 18.1716,7.5 19,7.5 C19.8284,7.5 20.5,6.82843 20.5,6 C20.5,5.17157 19.8284,4.5 19,4.5 Z M16,6 C16,4.34315 17.3431,3 19,3 C20.6569,3 22,4.34315 22,6 C22,7.65685 20.6569,9 19,9 C18.8382,9 18.6794,8.98719 18.5246,8.96254 L16.4865,12.3209 C16.8107,12.8001 17,13.3779 17,14 C17,15.6569 15.6569,17 14,17 C13.0971,17 12.2874,16.6012 11.7374,15.9701 L7.99584,17.8406 C7.9986,17.8934 8,17.9465 8,18 C8,19.6569 6.65685,21 5,21 C3.34315,21 2,19.6569 2,18 C2,16.3431 3.34315,15 5,15 C6.06616,15 7.00242,15.5562 7.5345,16.3942 L11.066,14.6287 C11.0228,14.426 11,14.2156 11,14 C11,12.3431 12.3431,11 14,11 C14.4823,11 14.938,11.1138 15.3417,11.316 L17.1395,8.35358 C16.4454,7.80411 16,6.95406 16,6 Z M14,12.5 C13.1716,12.5 12.5,13.1716 12.5,14 C12.5,14.8284 13.1716,15.5 14,15.5 C14.8284,15.5 15.5,14.8284 15.5,14 C15.5,13.1716 14.8284,12.5 14,12.5 Z M5,16.5 C4.17157,16.5 3.5,17.1716 3.5,18 C3.5,18.8284 4.17157,19.5 5,19.5 C5.82843,19.5 6.5,18.8284 6.5,18 C6.5,17.1716 5.82843,16.5 5,16.5 Z" id="🎨-Color"> </path> </g> </g> </g></svg>
+                                          </div>
+                                          <div class="card-body">
+                                          <h5 class="card-title">Comprehensive view</h5>
+                                          <p class="card-text">Multiple Documents are split, extracted, digitized into a single view with lineage</p>
+                                          </div>
+                                      </a>
+                                    </div>
+                                </div>
+                                <div class="col p-4">
+                                    <div class="card h-100">
+                                      <a href="#">
+                                          <div class="icon">
+                                            <i class="fa-solid fa-database" style="font-size: 50px;"></i>
+                                          </div>
+                                          <div class="card-body">
+                                          <h5 class="card-title">Dynamic Data Updates​</h5>
+                                          <p class="card-text">Multiple Documents are split, extracted, digitized into a single view with lineage</p>
+                                          </div>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc background_img">
+                        <div class="fl-row-content-wrap" style="background: #ffffff94;">
+                            <div class="fl-node-content">
+                                <div class="fl-node-top">
+                                    <h2 class="card-title">Our Customers with books of</h2>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                      <div class="col-md-6">
+                                        <div class="img p-4">
+                                            <img src="img/bg/8.jpg" class="card-img  img-fluid rounded-start" alt="...">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="Text-side">
+                                            <div class="card-body Efficient">
+                                                <h5 class="card-title">How it Works</h5>
+                                                <ul>
+                                                    <li class="list-group-item">Data is extracted from the Convr data lake</li>
+                                                    <li class="list-group-item">Relevant source data is scoured and ranked</li>
+                                                    <li class="list-group-item">Machine learning models act on the data, making predictions on relevance, accuracy and outcomes by category</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                      <div class="col-md-6">
+                                        <div class="Text-side">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-1">AI-Surfaced Applicant Data</h5>
+                                                <h3 class="card-title fs-3">d3 Answers delivers a powerful capability with results in less than a second</h3>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="img p-4">
+                                            <img src="img/bg/8.jpg" class="card-img  img-fluid rounded-start" alt="...">
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc" id="scrollspyHeading4">
+                        <div class="fl-row-content-wrap">
+                            <div class="fl-node-content">
+                                <div class="cardhead d-block text-center">
+                                    <div class="left pb-3 fs-5">
+                                        <h2 class="card-title fs-1">Patented Pre-Fill Capabilities of d3 Answers</h2>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-6">
+                                            <div class="Text-side d-block">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-magnifying-glass fs-1"></i>
+                                                        </div>
+                                                        Detect</h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection.</p>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-cubes fs-1"></i>
+                                                        </div>
+                                                        Extract</h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection.</p>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="2.5rem" height="2.5rem" fill="#5850ec"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13.274 9.537v-.001l-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074ZM4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75Z"></path></svg>
+                                                        </div>
+                                                        Overlay</h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="Text-side d-block">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-gears fs-1"></i>
+                                                        </div>
+                                                        Configure
+                                                    </h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection.</p>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-rotate fs-1"></i>
+                                                        </div>
+                                                        Visualize</h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection.</p>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">
+                                                        <div class="icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="2.5rem" height="2.5rem" fill="#5850ec"><path d="M9.002 2.5a.75.75 0 0 1 .691.464l6.302 15.305 2.56-6.301a.75.75 0 0 1 .695-.468h4a.75.75 0 0 1 0 1.5h-3.495l-3.06 7.532a.75.75 0 0 1-1.389.004L8.997 5.21l-3.054 7.329A.75.75 0 0 1 5.25 13H.75a.75.75 0 0 1 0-1.5h4l3.558-8.538a.75.75 0 0 1 .694-.462Z"></path></svg>
+                                                        </div>
+                                                        Synthesize</h5>
+                                                    <p class="card-text">Easily integrate your own data with Convr’s third-party data sources to gain a holistic view of a given 
+                                                        business and to build more confidence in risk selection.Easily integrate your own data with Convr’s 
+                                                        third-party data sources to gain a holistic view of a given business and to build more confidence in risk selection</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_paze_linc">
+                        <div class="fl-row-content-wrap" style="background: #ffffff94;">
+                            <div class="fl-node-content">
+                                <div class="cardhead d-block text-center">
+                                    <div class="left pb-3 fs-5">
+                                        <h2 class="card-title fs-1">Convr at Work</h2>
+                                        <h3 class="card-title">Learn how Encova Insurance drove real results with Convr d3 Risk 360</h3>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                      <div class="col-md-6">
+                                        <div class="img p-4">
+                                            <img src="img/bg/13.jpg" class="card-img  img-fluid rounded-start" alt="...">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="Text-side">
+                                            <div class="card-body Efficient">
+                                                <ul>
+                                                    <li class="list-group-item">Helps its underwriters save time – spending less than half the time they used to reviewing submissions</li>
+                                                    <li class="list-group-item">Supports a culture of underwriting excellence</li>
+                                                    <li class="list-group-item">Retains and attracts insurance industry talent by investing in digitally enabled employee experiences</li>
+                                                </ul>
+                                                <a href="#" target="_self" class="Button">
+                                                    <button type="button" class="btn">Read the Encova Insurance Case Study</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MoreAbout">
+                        <div class="fl-row-content-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cardhead text-center">
+                                        <div class="left" style="margin-right: auto;margin-left: auto;">
+                                            <h2 class="card-title">Benefits</h2>
+                                        </div>
+                                    </div>
+                                    <div class="cardBody" style="max-width: 900px;margin-left: auto;margin-right: auto;">
+                                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rotate"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Drive efficiency with straight-through processing</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rotate"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Drive efficiency with straight-through processing</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                              <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Avoid Data Leakage</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="col Card_box p-3 text-center" style="height: 200px;cursor: pointer;">
+                                                    <div class="card main-uabb-front h-100">
+                                                      <div class="uabb-front">
+                                                          <div class="cardIcon">
+                                                            <i class="fa-solid fa-rocket fa-beat"></i>
+                                                          </div>
+                                                          <div class="card-body">
+                                                              <h5 class="card-title">Realize faster speed-to-quote</h5>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card main-uabb-back h-100">
+                                                      <div class="uabb-back">
+                                                          <div class="card-body">
+                                                              <p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil in sint facilis dicta excepturi! Dolorum!</p>
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+
+
+                <a href="#" class="back-to-top" style="display: inline;">
+                    <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                </a>
+                
+
+                <div class="SMSbtn">
+                    <button class="LeftSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                        <span>Chat with us <img src="img/bg/7.png" alt="👋" class="emoji"></span>
+                    </button>
+                    <button class="RightSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-pen pen-sms"></i>
+                    </button>
+                </div>
+                <!-- ========== chat ========== -->
+                <!-- Modal -->
+                
+
+
+                <div class="chats">
+                    <!-- Button trigger modal -->
+                    
+                    <!-- Modal -->
+                    <div class="modal sms_chat" id="sms_chat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="chat-header">
+                                    <div class="avatars-wrapper">
+                                        <div class="header-ava"></div>
+                                        <div class="header-ava"></div>
+                                        <div class="header-ava"></div>
+                                    </div>
+                                    <h2 class="oneline">
+                                        <span>Hi there <img src="img/bg/7.png" alt="👋" class="emoji"></span>
+                                    </h2>
+                                    <button type="button" class="btn closBTN" data-bs-dismiss="modal" aria-label="Close">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <button type="button" class="btn closBTN" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </button>
+                                    <div class="offline-message" style="background-color: rgba(79, 72, 212, 0.72);">
+                                        <span><span>We typically reply within a few minutes.</span></span>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="conversation-group">
+                                        <div id="messages">
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                            <div class="message message-operator  ">
+                                                <span class="message-content">Thank you for your interest in Convr.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="input-group">
+                                        <div class="footer-input-wrapper">
+                                            <hr class="m-0">
+                                            <textarea id="new-message-textarea" rows="1" placeholder="Enter your message..." class=" " aria-label="New message" data-testid="newMessageTextarea"></textarea>
+                                        </div> 
+                                        <div class="footer-bottom">
+                                            <div class="footer-icons-wrapper">
+                                                <form><input type="file" name="attachment" aria-label="Attach file input" style="display: none;"></form>
+                                                <button type="button" class="material-icons emoji-switch ripple  " aria-label="Open Emoji picker" style="color: rgb(0, 125, 252);">
+                                                    <svg id="ic_emojiSwitch" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"></path></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="SMSbtn">
+                                    <button class="RightSMS" type="button" data-bs-toggle="modal" data-bs-target="#sms_chat">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <footer>
+                    <div class="End-to-End">
+                        <div class="fl-row-content-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cardhead">
+                                        <div class="left">
+                                            <h3 class="card-title text-white">Realize End-to-End Underwriting Excellence</h3>
+                                            <p class="card-title">With Convr AI, commercial P&amp;C insurance organizations benefit from submission to quote with a frictionless process enriched by AI decisioning, empowering them to make better decisions, faster.</p>
+                                        </div>
+                                        <div class="right">
+                                            <div class="btnTop">
+                                                <a href="#" target="_self" class="Button">
+                                                    <button type="button" class="btn" style="padding-left: 40px; padding-right: 40px;">Try Now</button>
+                                                </a>
+                                                <span class="or">or</span>
+                                            </div>
+                                            <div class="btnBottom">
+                                                <a href="#" target="_self" class="Button">
+                                                    <button type="button" class="btn" style="padding-left: 40px; padding-right: 40px;">Calculate Your ROI</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footers">
+                        <div class="fl-row-content-wrap">
+                            <div class="footer_mane px-4">
+                                <div class="card border-0" style="width: 25%;">
+                                  <div class="card-body">
+                                    <div class="img pb-3">
+                                        <a href="#"><img src="img/logo/convr-logo-indigo.png" class="card-img-top" alt="..."></a>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit qui accusantium doloremque veritatis sed, totam, vel placeat porro facilis quidem vero non magnam consequatur debitis. Natus facere explicabo velit.</p>
+                                    <div class="footer_icon">
+                                        <div class="row row-cols-md-4 my-3">
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card border-0" style="width: 22%;">
+                                  <div class="card-body">
+                                    <h6 class="card-title">Who We Help</h6>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Insurance Carriers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Reinsurers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Managing General Agents /</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Underwriters</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Producers</a>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="card border-0" style="width: 15%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">About</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Leadership</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Careers</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Events</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Contact</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="card-title pt-3">Platform</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Intake™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Risk 360™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">d3 Answers™</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">d3 Risk Score™</a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                </div>
+                                <div class="card border-0" style="width: 17%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Resources</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Calculate Your ROI</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Prioritization Model</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Case Studies</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">News</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Videos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Become a Partner</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                  <div class="card border-0" style="width: 21%;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Solutions</h6>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Customized Models</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Data Enrichment</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="#">Efficient Submission Intake</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Gather Correct Business Information</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Identify Correct Business Classification</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Identify Submission Q&A</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Pre-fill Efficiency</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Evaluate Risk Quality & Score</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="fl-rich-text text-center">
+                        <p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></p>
+                    </div>
+                    
+                </footer>
+
+
+
+            </div>
+        </main>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--=============== bootstrap ===============-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="js/JS.js"></script>
+    
+</body>
+</html>
